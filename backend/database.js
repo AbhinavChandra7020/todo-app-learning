@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-mongoose.connect('mongodb+srv://abhinavchandra:wquHZFha1cDrFqPr@learningdb.dkmrapz.mongodb.net/todo-app')
+mongoose.connect('mongo-url')
 
 const Todo = mongoose.Schema({
     title: String,
